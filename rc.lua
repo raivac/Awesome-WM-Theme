@@ -601,5 +601,5 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- }}}
 
 --Autostart
-awful.spawn.with_shell("picom --config ./Documentos/p.conf")
+awful.spawn.with_shell("picom --config ~/.config/awesome/p.conf")
 awful.spawn.with_shell("start-pulseaudio-x11")
